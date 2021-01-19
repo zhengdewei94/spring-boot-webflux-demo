@@ -21,10 +21,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 public class UserRouter {
 
     /**
-     * Request method
-     * <li>curl http://localhost:8080/query -i -H "Accept: application/x-ndjson"</li>
-     * Response data example
-     * #{"name":"鏉庡洓","instant":"2021-01-19T09:30:29.986041900Z"}#
+     * Router
      *
      * @param userHandler
      * @return RouterFunction<ServerResponse>
